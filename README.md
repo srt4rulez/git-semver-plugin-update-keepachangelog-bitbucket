@@ -1,0 +1,1 @@
+# git-semver-plugin-update-keepachangelog-bitbucket
