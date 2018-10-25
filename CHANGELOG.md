@@ -12,4 +12,4 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 - Add initial plugin.
 
-[Unreleased]: https://github.com/srt4rulez/git-semver-plugin-update-keepachangelog-bitbucket/compare/1.0.0...HEAD
+[Unreleased]: https://github.com/srt4rulez/git-semver-plugin-update-keepachangelog-bitbucket/compare/v1.0.0...HEAD
