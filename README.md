@@ -4,12 +4,19 @@ A [git-semver](https://github.com/markchalloner/git-semver) plugin that updates 
 
 ## Installation
 
-After cloning, either copy `update_keepachangelog_bitbucket.sh` to `${HOME}/.git-semver/plugins/` or your local git repo's `.git-semver/plugins` dir.
+After cloning, copy `update_keepachangelog_bitbucket.sh` to one of these dirs: 
 
-You could also symlink it to your home so you can easily update it with git:
+|Location                        | 
+|------------------------------- | 
+|`./.git-semver/plugins`         | 
+|`${HOME}/.git-semver/plugins/`  | 
+
+Example:
 
 ```bash
-$ ln -sv /path/to/git-semver-plugin-update-keepachangelog-bitbucket/update_keepachangelog_bitbucket.sh ${HOME}/.git-semver/plugins/update_keepachangelog_bitbucket.sh
+cp /path/to/git-semver-plugin-update-keepachangelog-bitbucket/update_keepachangelog_bitbucket.sh ~/.git-semver/plugins/update_keepachangelog_bitbucket.sh
 ```
+
+Make sure its executable. 
 
 See [git-semver](https://github.com/markchalloner/git-semver) for more on how to install and use plugins. 
